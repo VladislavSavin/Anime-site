@@ -1,0 +1,49 @@
+.container3{
+    position: absolute;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.container4 { 
+    border-radius: 10px;
+    display: block;
+    display: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    width: max-content;
+    border: 2px solid  rgb(51, 51, 51);
+
+    .addTitleForm{
+        margin-bottom: 20px;
+        border: 2px solid rgb(51, 51, 51);
+        border-radius: 10px;
+        padding-bottom: 5px;
+        .field{
+            margin-bottom: 20px;
+        }
+        h1,h2{
+            padding: 5px;
+            background-color: rgb(51, 51, 51);
+            color: white;
+            border-radius: 5px;
+        }
+    }
+    .b1{
+        padding: 10px;
+        background-color: rgb(51, 51, 51);
+        border: 2px solid rgb(142, 0, 0);
+        border-radius: 10px;
+        color: white;
+    }
+}

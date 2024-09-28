@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "PlayfairDisplay"; 
+    src: url("fonts/EBGaramond-VariableFont_wght.ttf") format("truetype"); 
+} 
+
+html, body {
+    height: 100%;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    font-family: "PlayfairDisplay";
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    background-image: url('images/backbody.jpeg');
+    overflow-x: hidden;
+}
+
+.header .nav .logoimg li{
+    list-style: none;
+}
+.header .nav{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    display: flex;
+}
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.header .menu{
+    font-family: "PlayfairDisplay";
+    display: flex;
+    text-align: right;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.header .imgchert{
+    padding-top: 0px;
+    margin-top: 0px;
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        background-color: rgb(43, 43, 43);
+        padding-top: 5px;
+    }
+    .header .nav .logoimg img{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-right: 0px;
+        height: 38px;
+        width: 181px;
+    }
+    .header .menu li a{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+    }
+    .header .menu li{
+        margin-top: 3px;
+        list-style: none;
+        margin-right: 16px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .footer{
+        padding: 0 auto;
+        margin-top: 90px;
+        background-color: rgb(51, 51, 51);
+        text-align: center;
+    }
+    .footer .firstchild{
+        padding: 0 auto;
+        color: white;
+        padding-top: 22px;
+        font-size: 22px;
+        margin-bottom: 16px;
+        padding-bottom: 0px;
+    }
+    .footer .secondchild{
+        padding-bottom: 20px;
+        margin-top: 16px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header{
+        background-color: rgb(43, 43, 43);
+        padding-top: 5px;
+    }
+    .header .nav .logoimg img{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-right: 0px;
+        height: 38px;
+        width: 181px;
+    }
+    .header .menu li a{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+    }
+    .header .menu li{
+        margin-top: 3px;
+        list-style: none;
+        margin-right: 16px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .footer{
+        padding: 0 auto;
+        margin-top: 90px;
+        background-color: rgb(51, 51, 51);
+        text-align: center;
+    }
+    .footer .firstchild{
+        padding: 0 auto;
+        color: white;
+        padding-top: 22px;
+        font-size: 22px;
+        margin-bottom: 16px;
+        padding-bottom: 0px;
+    }
+    .footer .secondchild{
+        padding-bottom: 20px;
+        margin-top: 16px;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .header{
+        background-color: rgb(43, 43, 43);
+        padding-top: 5px;
+    }
+    .header .nav .logoimg img{
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-left: 8px;
+        margin-right: 5px;
+        height: 40px;
+        width: 193px;
+    }
+    .header .menu li a{
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+    }
+    .header .menu li{
+        margin-top: 4px;
+        list-style: none;
+        margin-right: 18px;
+    }
+    .footer{
+        padding: 0 auto;
+        margin-top: 90px;
+        background-color: rgb(51, 51, 51);
+        text-align: center;
+    }
+    .footer .firstchild{
+        padding: 0 auto;
+        color: white;
+        padding-top: 25px;
+        font-size: 25px;
+        margin-bottom: 18px;
+        padding-bottom: 0px;
+    }
+    .footer .secondchild{
+        padding-bottom: 30px;
+        margin-top: 18px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .header{
+        background-color: rgb(43, 43, 43);
+        padding-top: 5px;
+    }
+    .header .nav .logoimg img{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .header .menu li a{
+        font-size: 20px;
+        color: white;
+    }
+    .header .menu li{
+        margin-top: 5px;
+        list-style: none;
+        margin-right: 20px;
+    }
+    .footer{
+        margin: 0 auto;
+        margin-top: 90px;
+        background-color: rgb(51, 51, 51);
+        text-align: center;
+    }
+    .footer .firstchild{
+        color: white;
+        padding-top: 30px;
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+    }
+    .footer .secondchild{
+        margin-top: 20px;
+        padding: 0px;
+        padding-bottom: 30px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+    }
+}
